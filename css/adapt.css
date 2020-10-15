@@ -255,3 +255,93 @@ th {
     width: 45%;
   }
 }
+
+@media (max-width: 1000px) {
+  footer .footer-wrapper .footer-logo {
+    width: 20%;
+  }
+  footer .footer-wrapper .footer-contacts {
+    width: 100%;
+  }
+  footer .footer-wrapper .footer-contacts__socials {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  footer .footer-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .footer-wrapper .footer-logo {
+    width: 40%;
+  }
+  footer .footer-wrapper .footer-contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .footer-wrapper .footer-contacts__infblock {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  footer .footer-wrapper .footer-contacts__socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .footer-wrapper .footer-rigts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-wrapper .footer-rigts p {
+    margin-bottom: 30px;
+  }
+  footer .footer-wrapper .footer-rigts a {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-wrapper .footer-rigts a img {
+    margin: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  footer .footer-wrapper .footer-logo {
+    width: 60%;
+  }
+}
