@@ -1,5 +1,3 @@
-/* Reset
-  ========================================================================== */
 html,
 body,
 div,
@@ -7,12 +5,6 @@ span,
 applet,
 object,
 iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
 blockquote,
 pre,
@@ -102,16 +94,6 @@ li {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: normal;
-}
-
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -168,6 +150,12 @@ button {
   margin: 0;
 }
 
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 button,
 input {
   line-height: normal;
@@ -182,4 +170,43 @@ td,
 th {
   padding: 0;
   text-align: left;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1360px) {
+  header .header-wrapper .header-info {
+    width: 70%;
+  }
+  header .header-wrapper .header-contacts {
+    width: 100%;
+  }
+  header .header-wrapper .header-contacts .header-contacts__tel {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  header .header-wrapper .header-contacts .header-contacts__tel p {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header-scroll .header-wrapper .header-logo {
+    width: 20%;
+  }
+  .header-scroll .header-wrapper .header-info {
+    width: 72%;
+  }
+  .header-scroll .header-wrapper nav a {
+    font-size: 0.9rem;
+  }
 }

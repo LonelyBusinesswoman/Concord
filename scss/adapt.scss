@@ -1,2 +1,39 @@
 @import '_vars.scss';
 @import '_reset.scss';
+// container
+.container{
+    @media (max-width: 1000px){
+        width: 90%;
+    }
+}
+// header 
+header{
+    @media (max-width: 1360px){
+        .header-wrapper .header-info{
+            width: 70%;
+        }
+        .header-wrapper .header-contacts {
+            width: 100%;
+            .header-contacts__tel{
+                flex-direction: column;
+                align-items: flex-start;
+                p{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+.header-scroll{
+    @media (max-width: 1000px){
+        .header-wrapper .header-logo{
+           width: 20%;
+       }
+       .header-wrapper .header-info{
+           width: 72%;
+       }
+       .header-wrapper nav a {
+            font-size: 0.9rem;
+        }
+    }
+}

@@ -5,12 +5,6 @@ span,
 applet,
 object,
 iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
 blockquote,
 pre,
@@ -102,17 +96,6 @@ li {
   padding: 0;
 }
 
-// Headlines
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: normal;
-}
-
 // Default
 html {
   box-sizing: border-box;
@@ -161,6 +144,11 @@ button {
   border: none;
   font-size: 100%;
   margin: 0;
+}
+select{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 button,
 input {

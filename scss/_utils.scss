@@ -1,0 +1,30 @@
+@import '_vars.scss';
+@import '_reset.scss';
+
+@mixin default-btn(){
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 3px;
+    min-width: 150px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 35px;
+    padding: 6px 14px;
+    letter-spacing: 0.03em;
+    transition: all ease 0.3s;
+    text-align: center;
+}
+@mixin action-btn(){
+    background: $mainRed;
+    border: 1px solid $lightRed;
+    box-shadow: 0px 9px 17px rgba(251, 69, 57, 0.21);
+    color: #fff;
+}
+
+@mixin transparent-btn(){
+    background: transparent;
+    border: 1px solid rgba(228, 28, 15, 0.3);
+    color: $mainRed;
+    padding: 6px 14px;
+}
