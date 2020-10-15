@@ -36,4 +36,40 @@ header{
             font-size: 0.9rem;
         }
     }
+    @media (max-width: 650px){
+        .header-wrapper{
+            padding: 10px 0;
+        }
+        .header-wrapper .header-logo{
+            width: 30%;
+        }
+        .header-wrapper .header-info{
+            display: none;
+        }
+        .mobile_menu{
+            display: flex;
+        }
+         // burg
+        .mobile_menu {
+            display: flex;
+            cursor: pointer;
+            width: 20px;
+            flex-direction: column;
+        }
+        .burg {
+            width: 100%;
+            height: 2px;
+            margin-bottom: 3px;
+            box-sizing: border-box;
+            background-color: $grey;
+        }
+        .burg:last-child {
+            margin-bottom: 0;
+        }
+    }
+    @media (max-width: 400px){
+        .header-wrapper .header-logo{
+            width: 45%;
+        }
+    }
 }

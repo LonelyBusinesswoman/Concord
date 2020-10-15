@@ -15,9 +15,35 @@ $(document).ready(function() {
     } else {
         header.addClass('header-scroll')
     }
+    
     // header height
     const height = $( 'header' ).height();
     $( '.header-margin' ).height(height);
+
+    // burger
+    // MOBILE MENU SETTINGS
+    $('.mobile_menu').on('click touchstart',function(){
+        $('.mobile').addClass('active');
+          })
+          $('.close_mob_menu').click(function(){
+            $('.mobile').removeClass('active');
+          })
+          $('.mobile .wrap a').click(function(){
+            $('.mobile').removeClass('active');
+          })
+          $('.mobile .wrap .action_button').click(function(){
+            $('.mobile').removeClass('active');
+          })
+          $(document).click(function(e){
+            if( 
+              $('.mobile').hasClass('active') && 
+              $('.mobile_menu').has(e.target).length == 0 &&
+              $('.mobile').has(e.target).length == 0
+            )
+            {
+              $('.mobile').removeClass('active');
+            }
+        });
 
     // main slider
     $('.main-slider').slick({
