@@ -178,6 +178,22 @@ th {
   }
 }
 
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  h3 {
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 500;
+  }
+}
+
 @media (max-width: 1360px) {
   header .header-wrapper .header-info {
     width: 70%;
@@ -343,5 +359,293 @@ th {
 @media (max-width: 450px) {
   footer .footer-wrapper .footer-logo {
     width: 60%;
+  }
+}
+
+@media (max-width: 950px) {
+  .main-form .form-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-form .form-text {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 50px;
+  }
+  .main-form .form-text h2 {
+    width: 60%;
+  }
+  .main-form .form-text p {
+    width: 70%;
+  }
+  .main-form form {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-form .form-text h2 {
+    width: 100%;
+  }
+  .main-form .form-text p {
+    width: 100%;
+  }
+  .main-form form {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+    padding: 40px 20px;
+  }
+  .main-form form .default-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .main-slider .slide-content h1 {
+    width: 80%;
+  }
+  .main-slider .slide-content p {
+    width: 70%;
+  }
+  .feedback .feedback-text {
+    width: 50%;
+  }
+}
+
+@media (max-width: 950px) {
+  .main-slider {
+    padding-bottom: 60px;
+  }
+  .main-slider .slick-dots {
+    bottom: 12%;
+    left: initial;
+    right: 5%;
+  }
+  .main-slider .slide {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-slider .slide-img {
+    width: 100%;
+  }
+  .main-slider .slide-img img {
+    min-height: 300px;
+    height: 300px;
+  }
+  .main-slider .slide-content {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 100%;
+  }
+  .main-slider .slide-content .action-btn {
+    width: 18%;
+  }
+  .opportunities .opportunities-wrapper {
+    width: 90%;
+  }
+  .possibilities .possibilities-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .possibilities .possibilities-descr {
+    width: 90%;
+  }
+  .possibilities .possibilities-grid {
+    width: 80%;
+    margin-top: 50px;
+  }
+  .team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .team .team-wrapper {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 40px;
+  }
+  .team .team-slider {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 70%;
+  }
+  .team .slick-dots {
+    position: static;
+    margin-top: 10px;
+  }
+  .team .team-descr {
+    width: 90%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .team .team-descr a {
+    display: none;
+  }
+  .team .mob-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .feedback .feedback-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .feedback .feedback-img {
+    width: 100%;
+    height: 400px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .feedback .feedback-img img {
+    height: 100%;
+  }
+  .feedback .feedback-text {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 80%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 0;
+  }
+  .connection .connection-wrapper {
+    width: 90%;
+  }
+  .recent-news .news-grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-slider .slick-dots {
+    bottom: initial;
+    top: 250px;
+    left: 0;
+    right: 0%;
+  }
+  .main-slider .slide-img img {
+    min-height: 230px;
+    height: 230px;
+  }
+  .main-slider .slide-content {
+    margin-top: 20%;
+  }
+  .main-slider .slide-content p {
+    width: 90%;
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  .opportunities .opportunities-wrapper h2 {
+    width: 90%;
+  }
+  .opportunities .opportunities-wrapper p {
+    width: 95%;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .possibilities .possibilities-descr {
+    width: 100%;
+  }
+  .possibilities .possibilities-descr p {
+    width: 95%;
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  .possibilities .possibilities-grid {
+    width: 100%;
+    margin-top: 50px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+  .possibilities .program .program-img img {
+    width: 75px;
+  }
+  .possibilities .program a {
+    font-size: 1.2rem;
+  }
+  .possibilities .transparent-btn {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .team .team-descr {
+    width: 100%;
+  }
+  .team .team-descr p {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .team .team-slider {
+    width: 100%;
+  }
+  .team .slide-wrapper {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .team .slide-wrapper img {
+    width: 85px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+  }
+  .team .slide-wrapper p, .team .slide-wrapper span {
+    text-align: left;
+  }
+  .team .slide-wrapper .description {
+    width: 100%;
+    line-height: 25px;
+  }
+  .feedback .feedback-img {
+    height: 200px;
+  }
+  .feedback .feedback-img img {
+    min-height: 200px;
+  }
+  .feedback .feedback-text span {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+  .feedback .feedback-text .transparent-btn {
+    width: 100%;
+    line-height: 24px;
+    padding: 10px 14px;
+  }
+  .recent-news .news-wrapper {
+    padding-bottom: 50px;
+  }
+  .recent-news .news-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+  .recent-news .transparent-btn {
+    margin-bottom: 50px;
   }
 }

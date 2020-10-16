@@ -6,6 +6,22 @@
         width: 90%;
     }
 }
+// titles
+@media (max-width: 500px){
+    h1{
+        font-size: 2rem;
+        line-height: 35px;
+    }
+    h2{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    h3{
+        font-size: 1.2rem;
+        line-height: 30px;
+        font-weight: 500;
+    }
+}
 // header 
 header{
     @media (max-width: 1360px){
@@ -131,5 +147,300 @@ footer{
                 width: 60%;
             }
         }
+    }
+}
+// form block
+@media (max-width: 950px){
+    .main-form .form-wrapper{
+        flex-direction: column;
+    }
+    .main-form .form-text {
+        width: 100%;
+        order:1;
+        margin-bottom: 50px;
+        h2{
+            width: 60%;
+        }
+        p{
+            width: 70%;
+        }
+    }
+    .main-form form{
+        order:2;
+        width: 80%;
+    }
+}
+@media (max-width: 500px){
+    .main-form .form-text {
+        h2{
+            width: 100%;
+        }
+        p{
+            width: 100%;
+        }
+    }
+    .main-form form{
+        order:2;
+        width: 100%;
+        padding: 40px 20px;
+        .default-btn{
+            width: 100%;
+        }
+    }
+}
+
+// index page 
+@media (max-width: 1250px){
+    // slider
+    .main-slider .slide-content h1 {
+        width: 80%;
+    }
+    .main-slider .slide-content p {
+        width: 70%;
+    }
+    // feedback
+    .feedback .feedback-text {
+        width: 50%;
+    }
+}
+
+@media (max-width: 950px){
+    // SLIDER
+    .main-slider{
+        padding-bottom: 60px;
+        // dots
+        .slick-dots {
+            bottom: 12%;
+            left: initial;
+            right: 5%;
+        }
+        .slide{
+            flex-direction: column;
+        }
+        // img
+        .slide-img {
+            width: 100%;
+            img{
+                min-height: 300px;
+                height: 300px;
+            }
+        }
+        // content
+        .slide-content {
+            margin-top: 5%;
+            margin-left: 5%;
+            width: 100%;
+            .action-btn {
+                width: 18%;
+            }
+        }
+    }
+    // OPPORTUNITIES BLOCK
+    .opportunities{
+        .opportunities-wrapper{
+            width: 90%;
+        }
+    }
+    // POSSIBILITIES BLOCK
+    .possibilities{
+        .possibilities-wrapper {
+            flex-direction: column;
+        }
+        .possibilities-descr {
+            width: 90%;
+         }
+         .possibilities-grid {
+             width: 80%;
+             margin-top: 50px;
+         }
+    }
+    // TEAM BLOCK
+    .team{
+        display: flex;
+        flex-direction: column;
+        .team-wrapper {
+            width: 90%;
+            flex-direction: column;
+            padding-bottom: 40px;
+        }
+        .team-slider{
+            order:2;
+            width: 70%;
+        }
+        .slick-dots{
+            position: static;
+            margin-top: 10px;
+        }
+        .team-descr {
+            width: 90%;
+            order:1;
+            a{
+                display: none;
+            }
+        }
+        .mob-btn{
+            display: flex;
+        }
+    }
+    // FEEDBACK BLOCK
+    .feedback {
+        .feedback-wrapper{
+            flex-direction: column;
+        }
+        .feedback-img {
+            width: 100%;
+            height: 400px;
+            order:1;
+            img{
+                height: 100%;
+            }
+        }
+        .feedback-text {
+            margin-top: 50px;
+            margin-bottom: 100px;
+            width: 80%;
+            order:2;
+            margin-left: 0;
+        }
+    }
+    // CONNECTION
+    .connection{
+        .connection-wrapper{
+            width: 90%;
+        }
+    }
+    // RECENT NEWS
+    .recent-news .news-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 50px;
+    }
+}
+@media (max-width: 500px){
+    // SLIDER
+    .main-slider{
+        // dots
+        .slick-dots {
+            bottom: initial;
+            top: 250px;
+            left: 0;
+            right: 0%;
+        }
+        // img
+        .slide-img {
+            img{
+                min-height: 230px;
+                height: 230px;
+            }
+        }
+        // content
+        .slide-content {
+            margin-top: 20%;
+            p {
+                width: 90%;
+                font-size: 1rem;
+                line-height: 25px;      
+            }
+        }
+    }
+    // OPPORTUNITIES
+    .opportunities{
+        .opportunities-wrapper{
+            h2{
+                width: 90%;
+            }
+            p{
+                width: 95%;
+                font-size: 1rem;
+                line-height: 30px;
+            }
+        }
+    }
+    // POSSIBILITIES
+    .possibilities{
+        .possibilities-descr{
+            width: 100%;
+            p{
+                width: 95%;
+                font-size: 1rem;
+                line-height: 25px;
+            }
+        }
+        .possibilities-grid {
+            width: 100%;
+            margin-top: 50px;
+            grid-template-columns: 1fr;
+            grid-row-gap: 50px;
+        }
+        // program img
+        .program .program-img img {
+            width: 75px;
+        }
+        .program a {
+            font-size: 1.2rem;
+        }
+        // btn
+        .transparent-btn {
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+    }
+    // TEAM BLOCK
+    .team{
+        .team-descr {
+            width: 100%;
+                p {
+                    width: 100%;
+                    font-size: 1rem;
+            }
+        }
+        .team-slider {
+            width: 100%;
+        }
+        .slide-wrapper{
+            align-items: flex-start;
+            img {
+                width: 85px;
+                margin-top: -50px;
+                margin-bottom: 30px;
+            }
+            p, span{
+                text-align: left;
+            }
+            .description{
+                width: 100%;
+                line-height: 25px;
+            }
+        }
+    }
+    //  FEEDBACK
+    .feedback{
+        .feedback-img {
+            height: 200px;
+            img{
+                min-height: 200px;
+            }
+        }
+        .feedback-text{
+            span {
+                font-size: 1.2rem;
+                line-height: 30px;
+            }
+            .transparent-btn {
+                width: 100%;
+                line-height: 24px;
+                padding: 10px 14px;
+            }
+        }
+    }
+    // RECENT NEWS
+    .recent-news .news-wrapper{
+        padding-bottom: 50px;
+    }
+    .recent-news .news-grid {
+        grid-template-columns: 1fr;
+        grid-row-gap: 50px;
+    }
+    .recent-news .transparent-btn{
+        margin-bottom: 50px;
     }
 }

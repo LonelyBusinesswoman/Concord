@@ -137,7 +137,7 @@ h3{
 // program block
 .program{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     .program-img{
         margin-right: 10px;
         img{
@@ -150,7 +150,6 @@ h3{
     }
     a{
         font-size: 1rem;
-        font-size: 16px;
         line-height: 22px;
         color: $grey;
     }
@@ -798,6 +797,11 @@ footer{
             width: 70%;
         }
     }
+    .mob-btn{
+        display: none;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
 }
 // feedback
 .feedback{
@@ -841,7 +845,9 @@ footer{
     }
     .feedback-img{
         width: 45%;
+        height: 100%;
         img{
+            min-height: 400px;
             width: 100%;
              -o-object-fit: cover;
                 object-fit: cover;

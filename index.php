@@ -52,6 +52,22 @@
                 <a href="#" class="default-btn action-btn">get started</a>
             </div>
         </div>
+
+        <div class="slide">
+            <!-- img -->
+            <div class="slide-img">
+                <img src="img/slide-img.jpg" alt="slide">
+            </div> 
+            <!-- content -->
+            <div class="slide-content">
+                <h1>A different way to learn</h1>
+
+                <p>Go back to school from home
+                    with affordable, online education</p>
+
+                <a href="#" class="default-btn action-btn">get started</a>
+            </div>
+        </div>
     </section>
 
     <!-- opportunities -->
@@ -137,6 +153,7 @@
                 <a href="#" class="default-btn transparent-btn">Learn more about us</a>
             </div>
         </div>
+        <a href="#" class="default-btn transparent-btn mob-btn">Learn more about us</a>
     </section>
 
     <!-- feedback -->

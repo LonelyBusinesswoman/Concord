@@ -556,9 +556,9 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .program .program-img {
@@ -581,7 +581,6 @@ h3 {
 
 .program a {
   font-size: 1rem;
-  font-size: 16px;
   line-height: 22px;
   color: #333333;
 }
@@ -1511,6 +1510,12 @@ footer {
   width: 70%;
 }
 
+.team .mob-btn {
+  display: none;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 .feedback {
   background-color: #fff;
 }
@@ -1571,9 +1576,11 @@ footer {
 
 .feedback .feedback-img {
   width: 45%;
+  height: 100%;
 }
 
 .feedback .feedback-img img {
+  min-height: 400px;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
