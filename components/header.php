@@ -17,7 +17,8 @@
     <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
 </head>
 <body>
-
+     <!-- for header -->
+    <div class="header-margin"></div>
     <header class="header">
         <div class="header-wrapper container">
             <!-- logo -->

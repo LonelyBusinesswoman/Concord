@@ -652,6 +652,63 @@ h3 {
   width: fit-content;
 }
 
+.page-description {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #1B68C2;
+  position: relative;
+}
+
+.page-description .icon-1 {
+  width: 20%;
+  left: -8%;
+  top: -10%;
+}
+
+.page-description .icon-2 {
+  width: 12%;
+  top: 0;
+  left: 53%;
+}
+
+.page-description .icon-3 {
+  width: 10%;
+  left: 45%;
+  top: 65%;
+}
+
+.page-description .page-name {
+  width: 60%;
+  margin-left: 12%;
+}
+
+.page-description .page-name h2 {
+  font-size: 4rem;
+  line-height: 60px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}
+
+.page-description .page-img {
+  width: 40%;
+}
+
+.page-description .page-img img {
+  min-height: 270px;
+  max-height: 270px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .header-margin {
   width: 100%;
   z-index: 2;
@@ -1677,4 +1734,58 @@ footer {
   margin: 0 auto;
   margin-bottom: 6%;
   width: 12%;
+}
+
+.news-page-grid {
+  margin-top: 70px;
+  margin-bottom: 90px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 80px;
+  grid-column-gap: 5%;
+}
+
+.news-nav {
+  margin-bottom: 100px;
+}
+
+.news-nav .news-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.news-nav .news-navigation a {
+  color: #333333;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  margin-right: 20px;
+  padding: 2% 3%;
+}
+
+.news-nav .news-navigation p {
+  margin-right: 20px;
+  padding: 2% 3%;
+}
+
+.news-nav .news-navigation a:last-child {
+  margin-right: 0;
+}
+
+.news-nav .news-navigation a:hover {
+  color: #000;
+}
+
+.news-nav .news-navigation .active {
+  border: 3px solid #E41C0F;
+  border-radius: 50%;
 }

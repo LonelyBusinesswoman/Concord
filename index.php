@@ -1,7 +1,6 @@
 <?php include 'components/header.php'; ?>
 <main>
-    <!-- for header -->
-    <div class="header-margin"></div>
+   
     <!-- slider -->
     <section class="main-slider">
 

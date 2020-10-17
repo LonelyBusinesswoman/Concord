@@ -7,7 +7,7 @@
     padding: 0;
     font-family: $mainFont;
 }
-//BLOCKS SETTINGS
+//MAIN SETTINGS
 body, html{
     overflow-x: hidden;
 }
@@ -203,6 +203,51 @@ h3{
         width: -webkit-fit-content;
         width: -moz-fit-content;
         width: fit-content;
+    }
+}
+// page descroption block
+.page-description{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $mainBlue;
+    position: relative;
+    // icons
+    .icon-1{
+        width: 20%;
+        left: -8%;
+        top: -10%;
+    }
+    .icon-2{
+        width: 12%;
+        top: 0;
+        left: 53%;
+    }
+    .icon-3{
+        width: 10%;
+        left: 45%;
+        top: 65%;
+    }
+    .page-name{
+        width: 60%;
+        margin-left: 12%;
+        h2{
+            font-size: 4rem;
+            line-height: 60px;
+            letter-spacing: -0.05em;
+            color: #FFFFFF;
+        }
+    }
+    .page-img{
+        width: 40%;
+        img{
+            min-height: 270px;
+            max-height: 270px;
+            width: 100%;
+            -o-object-fit: cover;
+               object-fit: cover;
+        }
     }
 }
 // HEADER
@@ -905,5 +950,45 @@ footer{
         margin: 0 auto;
         margin-bottom: 6%;
         width: 12%;
+    }
+}
+// NEWS PAGE
+.news-page-grid{
+    margin-top: 70px;
+    margin-bottom: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 80px;
+    grid-column-gap: 5%;
+}
+.news-nav{
+    margin-bottom: 100px;
+    .news-navigation{
+        display: flex;
+        align-items: flex-end;
+        a{
+            color:$grey;
+            transition: all ease 0.2s;
+            font-weight: 300;
+            font-size: 2rem;
+            line-height: 35px;
+            letter-spacing: 0.03em;
+            margin-right: 20px;
+            padding: 2% 3%;
+        }
+        p{
+            margin-right: 20px;
+            padding: 2% 3%;
+        }
+        a:last-child{
+            margin-right: 0;
+        }
+        a:hover{
+            color:#000;
+        }
+        .active{
+            border: 3px solid $mainRed;
+            border-radius: 50%;
+        }
     }
 }
