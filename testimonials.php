@@ -7,22 +7,22 @@
         <div class="back-icon icon-2"><img src="img/icons/icon-element.svg" alt="icon"></div>
         <div class="back-icon icon-3"><img src="img/icons/icon-element.svg" alt="icon"></div> 
         <div class="page-name">
-            <h2>Our blog</h2>
+            <h2>Testimonials</h2>
         </div>
         <div class="page-img">
-            <img src="img/blog-pic.jpg" alt="blog">
+            <img src="img/Testimonials-pic.jpg" alt="blog">
         </div>
     </section>
-
-    <!-- news grid -->
-    <section class="news-page-grid container">
-        <?php for($i = 0; $i < 8; $i++): ?>
-            <?php include 'components/news_block.php' ?>
-        <?php endfor; ?>
+    <!-- testimonials -->
+    <section class="testimonials">
+        <div class="testimonials-wrapper">
+            <?php for($i = 0; $i < 4; $i++): ?>
+                <?php include 'components/feedback_block.php' ?>
+            <?php endfor; ?>
+        </div>
     </section>
-
-    <!-- navigation -->
-    <section class="news-nav container">
+     <!-- navigation -->
+     <section class="feedback-nav">
         <div class="default-navigation">
             <a href="#">1</a>
             <a href="#" >2</a>
