@@ -196,6 +196,10 @@ th {
     line-height: 35px;
     letter-spacing: -0.05em;
   }
+  .page-description .page-name span {
+    width: 100%;
+    font-size: 1rem;
+  }
   h1 {
     font-size: 2rem;
     line-height: 35px;
@@ -587,6 +591,12 @@ th {
   .faq-tab .panel-heading, .faq-tab .panel-collapse, .faq-tab .panel-line {
     width: 100%;
   }
+  .links-wrapper {
+    width: 90%;
+  }
+  .links-wrapper span {
+    width: 90%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -767,5 +777,21 @@ th {
   }
   .faq-tab .panel-collapse p {
     font-size: 1rem;
+  }
+  .links-wrapper {
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .links-wrapper img {
+    width: 20px;
+    margin-right: 8px;
+    margin-top: 5px;
+  }
+  .links-wrapper a {
+    font-size: 1.1rem;
+  }
+  .links-wrapper span {
+    width: 100%;
   }
 }

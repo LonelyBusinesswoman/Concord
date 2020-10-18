@@ -232,18 +232,29 @@ h3{
     .page-name{
         width: 60%;
         margin-left: 12%;
+        display: flex;
+        flex-direction: column;
+        padding: 60px 0;
         h2{
             font-size: 4rem;
             line-height: 60px;
             letter-spacing: -0.05em;
             color: #FFFFFF;
         }
+        span{
+            width: 80%;
+            margin-top: 25px;
+            font-weight: 300;
+            font-size: 1.2rem;
+            line-height: 30px;
+            color: $lightWhite;
+        }
     }
     .page-img{
         width: 40%;
         img{
             min-height: 270px;
-            max-height: 270px;
+            max-height: 460px;
             width: 100%;
             -o-object-fit: cover;
                object-fit: cover;
@@ -1148,8 +1159,55 @@ footer{
         margin-top: 20px;
     }
 }
-   
-   
+// USEFUL LINKS PAGE
+.useful-links{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.links-wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+        margin-top: 40px;
+        display: flex;
+        align-items: flex-start;
+    }
+    img{
+        width: 28px;
+        margin-right: 12px;
+    }
+    a{
+        display: inline-block;
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 30px;
+        color: $grey;
+        padding-bottom: 3px;
+        -webkit-text-decoration-line: underline;
+                text-decoration-line: underline;
+        -webkit-text-decoration-color:$lightRed;
+                text-decoration-color:$lightRed;
+    }
+    span{
+        display: inline-block;
+        width: 50%;
+        margin-top: 15px;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 25px;
+        color: $grey;
+    }
+}
    
    
    

@@ -206,7 +206,7 @@
             <!-- grid -->
             <div class="news-grid">
                 <?php for($i = 0; $i < 3; $i++): ?>
-                    <?php include 'components/news-block.php' ?>
+                    <?php include 'components/news_block.php' ?>
                 <?php endfor; ?>
             </div>
         </div>

@@ -17,7 +17,7 @@
     <!-- news grid -->
     <section class="news-page-grid container">
         <?php for($i = 0; $i < 8; $i++): ?>
-            <?php include 'components/news-block.php' ?>
+            <?php include 'components/news_block.php' ?>
         <?php endfor; ?>
     </section>
 
