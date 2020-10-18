@@ -60,7 +60,7 @@
                         <li><a href="#">Testimonials</a></li>
                         <li><a href="blog.php">Blog</a></li>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -90,9 +90,9 @@
                 <li><a href="#">Programs</a></li>
                 <li><a href="#">Links</a></li>
                 <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="blog.php">Blog</a></li>
                 <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
             <!-- contacts -->
             <div class="header-contacts__tel">

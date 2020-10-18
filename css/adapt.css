@@ -581,6 +581,9 @@ th {
     margin: 10% auto;
     margin-left: 5%;
   }
+  .contact-wrapper {
+    width: 90%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -725,5 +728,28 @@ th {
   .article .transparent-btn {
     min-width: 65%;
     margin: 20% auto;
+  }
+  .map {
+    width: 100%;
+    height: 420px;
+  }
+  .contact-inf {
+    padding: 50px 0 100px 0;
+  }
+  .contact-wrapper {
+    margin: 0 auto;
+  }
+  .contact-wrapper p {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .contact-wrapper .contact-inf__block img {
+    width: 32px;
+    margin-right: 20px;
+  }
+  .contact-wrapper .contact-inf__block p, .contact-wrapper .contact-inf__block a {
+    font-size: 1.1rem;
+    line-height: 35px;
   }
 }
