@@ -1902,3 +1902,102 @@ footer {
   font-weight: 400;
   border-bottom: 1px solid #FB4539;
 }
+
+.faq {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 140px;
+}
+
+.faq-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.faq-tab h3 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.faq-tab .panel-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq-tab .panel-heading p {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #333333;
+}
+
+.faq-tab .panel-heading img {
+  width: 15px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.faq-tab .panel-heading .active {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.faq-tab .panel-collapse {
+  width: 75%;
+  display: none;
+  padding-top: 10px;
+}
+
+.faq-tab .panel-collapse p {
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 30px;
+  color: #4F4F4F;
+}
+
+.faq-tab .panel-line {
+  width: 75%;
+  height: 1px;
+  background: #D8E6F6;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

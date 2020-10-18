@@ -85,4 +85,15 @@ $(document).ready(function() {
         $current.find('.position').animate({opacity: 1},400);
         $current.find('.description').animate({opacity: 1},400);
     });
+    // TABS
+    $('.panel-heading').click(function () {
+      $(this).toggleClass('in').next().slideToggle();
+      const arrow = $(this).find('img');
+      if (arrow.hasClass('active')){
+        arrow.removeClass('active')
+      } else {
+        arrow.addClass('active');
+      }
+    });
+
 })

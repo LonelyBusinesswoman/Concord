@@ -584,6 +584,9 @@ th {
   .contact-wrapper {
     width: 90%;
   }
+  .faq-tab .panel-heading, .faq-tab .panel-collapse, .faq-tab .panel-line {
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -751,5 +754,18 @@ th {
   .contact-wrapper .contact-inf__block p, .contact-wrapper .contact-inf__block a {
     font-size: 1.1rem;
     line-height: 35px;
+  }
+  .faq-tab h3 {
+    font-size: 1.8rem;
+    line-height: 40px;
+  }
+  .faq-tab .panel-heading p {
+    font-size: 1.2rem;
+  }
+  .faq-tab .panel-heading img {
+    display: none;
+  }
+  .faq-tab .panel-collapse p {
+    font-size: 1rem;
   }
 }

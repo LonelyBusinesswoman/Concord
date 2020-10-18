@@ -371,6 +371,12 @@ footer{
     .contact-wrapper{
         width: 90%;
     }
+    // FAQ PAGE
+    .faq-tab{
+        .panel-heading, .panel-collapse, .panel-line{
+            width: 100%;
+        }
+    }
 }
 @media (max-width: 500px){
     // SLIDER
@@ -569,6 +575,26 @@ footer{
             p, a{
                 font-size: 1.1rem;
                 line-height: 35px;
+            }
+        }
+    }
+     // FAQ PAGE
+     .faq-tab{
+        h3{
+            font-size: 1.8rem;
+            line-height: 40px;
+        }
+        .panel-heading{
+            p{
+                font-size: 1.2rem;
+            }
+            img{
+                display: none;
+            }
+        }
+        .panel-collapse {
+            p{
+                font-size: 1rem;
             }
         }
     }
