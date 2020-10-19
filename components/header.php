@@ -22,9 +22,9 @@
     <header class="header">
         <div class="header-wrapper container">
             <!-- logo -->
-            <div class="header-logo">
+            <a href="index.php" class="header-logo">
                 <img src="img/logo.svg" alt="logo">
-            </div>
+            </a>
 
             <!-- inf and links -->
             <div class="header-info">
@@ -56,10 +56,10 @@
                     <ul>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Programs</a></li>
-                        <li><a href="#">Links</a></li>
-                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="useful-links.php">Links</a></li>
+                        <li><a href="testimonials.php">Testimonials</a></li>
                         <li><a href="blog.php">Blog</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="faq.php">FAQ</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
@@ -88,10 +88,10 @@
             <ul>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Programs</a></li>
-                <li><a href="#">Links</a></li>
-                <li><a href="#">Testimonials</a></li>
+                <li><a href="useful-links.php">Links</a></li>
+                <li><a href="testimonials.php">Testimonials</a></li>
                 <li><a href="blog.php">Blog</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><a href="faq.php">FAQ</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
             <!-- contacts -->

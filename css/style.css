@@ -354,6 +354,7 @@ th {
 
 body, html {
   overflow-x: hidden;
+  color: #333333;
 }
 
 main {
@@ -483,7 +484,7 @@ h3 {
   color: #000;
 }
 
-.default-navigation .active {
+.default-navigation .nav-active {
   border: 3px solid #E41C0F;
   border-radius: 50%;
 }
@@ -609,6 +610,7 @@ h3 {
 }
 
 .program .program-name {
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -719,7 +721,6 @@ h3 {
   font-weight: 300;
   font-size: 1rem;
   line-height: 25px;
-  color: #333333;
   margin-bottom: 20px;
 }
 
@@ -728,7 +729,6 @@ h3 {
   font-size: 1.1rem;
   line-height: 25px;
   text-align: right;
-  color: #333333;
 }
 
 .page-description {
@@ -987,6 +987,11 @@ header {
   opacity: 1;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
+}
+
+.header-wrapper nav .currentLink::after {
+  opacity: 1;
+  top: 74%;
 }
 
 .header-wrapper .mobile_menu {
@@ -1349,7 +1354,6 @@ footer {
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 30px;
-  color: #333333;
   margin-bottom: 40px;
 }
 
@@ -1477,7 +1481,6 @@ footer {
 
 .possibilities .possibilities-descr h3 {
   margin-bottom: 20px;
-  color: #333333;
 }
 
 .possibilities .possibilities-descr p {
@@ -1614,7 +1617,6 @@ footer {
 .team .slide-wrapper .name {
   font-size: 1.1rem;
   line-height: 25px;
-  color: #333333;
   margin-bottom: 10px;
 }
 
@@ -1647,7 +1649,6 @@ footer {
 }
 
 .team .team-descr h3 {
-  color: #333333;
   margin-bottom: 20px;
 }
 
@@ -1710,7 +1711,6 @@ footer {
   font-size: 1.3rem;
   line-height: 40px;
   letter-spacing: -0.02em;
-  color: #333333;
   margin-bottom: 15px;
 }
 
@@ -1765,7 +1765,6 @@ footer {
 
 .connection h3 {
   margin-bottom: 20px;
-  color: #333333;
 }
 
 .connection .connection-companies {
@@ -1813,7 +1812,6 @@ footer {
 }
 
 .recent-news h3 {
-  color: #333333;
   margin-bottom: 30px;
 }
 
@@ -1870,7 +1868,6 @@ footer {
   font-size: 2.4rem;
   line-height: 50px;
   letter-spacing: -0.02em;
-  color: #333333;
 }
 
 .article p {
@@ -1879,7 +1876,6 @@ footer {
   font-size: 1.2rem;
   line-height: 35px;
   letter-spacing: -0.02em;
-  color: #333333;
 }
 
 .article .article-img {
@@ -1929,7 +1925,6 @@ footer {
   font-size: 1.2rem;
   line-height: 35px;
   letter-spacing: -0.02em;
-  color: #333333;
 }
 
 .contact-wrapper .contact-inf__block {
@@ -2001,7 +1996,6 @@ footer {
   font-size: 2.5rem;
   line-height: 40px;
   letter-spacing: -0.02em;
-  color: #333333;
   margin-bottom: 30px;
 }
 
@@ -2131,7 +2125,6 @@ footer {
   font-weight: 300;
   font-size: 1rem;
   line-height: 25px;
-  color: #333333;
 }
 
 .testimonials {
@@ -2155,10 +2148,99 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 80px 0;
+  padding: 80px 0 90px 0;
 }
 
 .feedback-nav {
   width: 50%;
   margin-bottom: 80px;
+}
+
+.programs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.open-programs {
+  background-color: #fff;
+}
+
+.programs-wrapper {
+  padding: 90px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.programs-wrapper .program-offer {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+
+.programs-wrapper .program-description {
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 30px;
+  width: 55%;
+}
+
+.program-grid {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 60px;
+}
+
+.open-program {
+  width: 90%;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+}
+
+.open-program .program .program-img img {
+  width: 120px;
+}
+
+.open-program .program a {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.open-program .program p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.new-program {
+  width: 100%;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  margin-bottom: 50px;
+}
+
+.new-program .program .program-img img {
+  width: 85px;
+}
+
+.new-program .program a {
+  font-size: 1.1rem;
+}
+
+.new-program .program p {
+  display: none;
 }

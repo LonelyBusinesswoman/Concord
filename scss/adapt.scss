@@ -2,6 +2,12 @@
 @import '_reset.scss';
 
 // MAIN BLOCK SETTINGS
+@media (min-width: 1800px) and (max-width: 2560px){
+     // container
+     .container{
+        width: 60%;
+    }
+}
 @media (max-width: 1000px){
     // container
     .container{
@@ -243,7 +249,24 @@ footer{
     }
 }
 
-// index page 
+// PAGES
+@media (min-width: 1800px) and (max-width: 2560px){
+    // team block
+    .team .team-wrapper {
+        width: 55%;
+    }
+    // partners block
+    .connection .connection-wrapper {
+        width: 55%;
+    }
+    // index page feedback block
+    .feedback .feedback-text {
+        width: 40%;
+        margin-left: 20%;
+    }
+}
+
+
 @media (max-width: 1250px){
     // slider
     .main-slider .slide-content h1 {
@@ -416,6 +439,22 @@ footer{
     // FEEDBACK PAGE 
     .testimonials-wrapper{
         width: 90%;
+    }
+    // PROGRAMS PAGE
+    .programs-wrapper{
+        .program-description{
+            width: 90%;
+        }
+    }
+    .open-program{
+        width: 100%;
+        grid-template-columns: 1fr;
+        .program .program-name{
+            width: 40%;
+        }
+    }
+    .new-program {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 @media (max-width: 500px){
@@ -640,13 +679,47 @@ footer{
             width: 100%;
         }
     }
-     // FEEDBACK PAGE 
-     .testimonials-wrapper{
+    // FEEDBACK PAGE 
+    .testimonials-wrapper{
         width: 90%;
         padding: 80px 0;
         padding-bottom: 40px;
     }
     .feedback-nav {
         width: 90%;
+    }
+    // PROGRAMS PAGE
+    .programs-wrapper{
+        padding: 50px 0;
+        .program-offer{
+            font-size: 1.3rem;
+        }
+        .program-description{
+            width: 100%;
+        }
+    }
+    .open-program{
+        .program .program-name{
+            width: 80%;
+        }
+        .program .program-img img {
+            width: 85px;
+        }
+        .program a{
+            font-size: 1.1rem;
+        }
+        .program p{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+    }
+    .new-program {
+        grid-template-columns: 1fr;
+        .program .program-img img {
+            width: 60px;
+        }
+        .program a{
+            font-size: 0.95rem;
+        }
     }
 }

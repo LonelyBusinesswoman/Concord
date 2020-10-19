@@ -26,7 +26,7 @@
         <div class="default-navigation">
             <a href="#">1</a>
             <a href="#" >2</a>
-            <a href="#" class="active">3</a>
+            <a href="#" class="nav-active">3</a>
             <a href="#">4</a>
             <p>...</p>
             <a href="#">25</a>

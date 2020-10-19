@@ -95,5 +95,10 @@ $(document).ready(function() {
         arrow.addClass('active');
       }
     });
-
+    // current page link style
+    $("[href]").each(function() {
+      if (this.href == window.location.href) {
+          $(this).addClass("currentLink");
+      }
+  });
 })

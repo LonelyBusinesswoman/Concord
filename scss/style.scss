@@ -10,6 +10,7 @@
 //MAIN SETTINGS
 body, html{
     overflow-x: hidden;
+    color: $grey;
 }
 main {
     display: flex;
@@ -88,7 +89,7 @@ h3{
     a:hover{
         color:#000;
     }
-    .active{
+    .nav-active{
         border: 3px solid $mainRed;
         border-radius: 50%;
     }
@@ -174,6 +175,7 @@ h3{
         }
     }
     .program-name{
+        width: 60%;
         display: flex;
         flex-direction: column;
     }
@@ -254,7 +256,6 @@ h3{
         font-weight: 300;
         font-size: 1rem;
         line-height: 25px;
-        color: $grey;
         margin-bottom: 20px;
     }
     .feedback-block__author{
@@ -262,7 +263,6 @@ h3{
         font-size: 1.1rem;
         line-height: 25px;
         text-align: right;
-        color: $grey;
     }
 }
 // page descroption block
@@ -438,6 +438,10 @@ header{
          a:focus::after {
             opacity: 1;
             transform: translateY(0px);
+        }
+        .currentLink::after{
+            opacity:1;
+            top: 74%;
         }
     }
     // burger
@@ -689,7 +693,6 @@ footer{
             font-weight: 300;
             font-size: 1.3rem;
             line-height: 30px;
-            color: $grey;
             margin-bottom: 40px;
         }
         .action-btn{
@@ -779,7 +782,6 @@ footer{
         width: 40%;
         h3{
             margin-bottom: 20px;
-            color:$grey;
         }
         p{
             font-weight: 300;
@@ -874,7 +876,6 @@ footer{
         .name{
             font-size: 1.1rem;
             line-height: 25px;
-            color: $grey;
             margin-bottom: 10px;
         }
         .position{
@@ -898,7 +899,6 @@ footer{
         display: flex;
         flex-direction: column;
         h3{
-            color:$grey;
             margin-bottom: 20px;
         }
         p{
@@ -943,7 +943,6 @@ footer{
             font-size: 1.3rem;
             line-height: 40px;
             letter-spacing: -0.02em;
-            color: $grey;
             margin-bottom: 15px;
         }
         span{
@@ -982,7 +981,6 @@ footer{
     }
     h3{
         margin-bottom: 20px;
-        color:$grey;
     }
     .connection-companies{
         width: 100%;
@@ -1007,7 +1005,6 @@ footer{
         flex-direction: column;
     }
     h3{
-        color:$grey;
         margin-bottom: 30px;
     }
     .news-grid{
@@ -1051,7 +1048,6 @@ footer{
         font-size: 2.4rem;
         line-height: 50px;
         letter-spacing: -0.02em;
-        color: $grey;
     }
     p{
         padding-top: 45px;
@@ -1059,7 +1055,6 @@ footer{
         font-size: 1.2rem;
         line-height: 35px;
         letter-spacing: -0.02em;
-        color: $grey;
     }
     .article-img{
         width: 60%;
@@ -1102,7 +1097,6 @@ footer{
         font-size: 1.2rem;
         line-height: 35px;
         letter-spacing: -0.02em;
-        color: $grey;
     }
     .contact-inf__block{
         margin-top: 40px;
@@ -1147,7 +1141,6 @@ footer{
         font-size: 2.5rem;
         line-height: 40px;
         letter-spacing: -0.02em;
-        color: $grey;
         margin-bottom: 30px;
     }
     .panel-heading{
@@ -1236,7 +1229,6 @@ footer{
         font-weight: 300;
         font-size: 1rem;
         line-height: 25px;
-        color: $grey;
     }
 }
 // TESTIMONIALS PAGE
@@ -1249,11 +1241,71 @@ footer{
     width: 50%;
     flex-direction: column;
     display: flex;
-    padding: 80px 0;
+    padding: 80px 0 90px 0;
 }
 .feedback-nav{
     width: 50%;
     margin-bottom: 80px;
 }
-   
-   
+// PROGRAMS PAGE
+.programs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.open-programs{
+    background-color: #fff;
+}
+.programs-wrapper{
+    padding: 90px 0;
+    display: flex;
+    flex-direction: column;
+    .program-offer{
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        margin-bottom: 20px;
+    }
+    .program-description{
+        font-weight: 300;
+        font-size: 1.1rem;
+        line-height: 30px;
+        width: 55%;
+    }
+}
+.program-grid{
+    display: grid;
+    margin-top: 60px;
+}
+.open-program{
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:20px;
+    .program .program-img img {
+        width: 120px;
+    }
+    .program a{
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+    .program p{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+.new-program{
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:30px;
+    margin-bottom: 50px;
+    .program .program-img img {
+        width: 85px;
+    }
+    .program a{
+        font-size: 1.1rem;
+    }
+    .program p{
+        display: none;
+    }
+}

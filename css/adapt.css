@@ -172,6 +172,12 @@ th {
   text-align: left;
 }
 
+@media (min-width: 1800px) and (max-width: 2560px) {
+  .container {
+    width: 60%;
+  }
+}
+
 @media (max-width: 1000px) {
   .container {
     width: 90%;
@@ -451,6 +457,19 @@ th {
   }
 }
 
+@media (min-width: 1800px) and (max-width: 2560px) {
+  .team .team-wrapper {
+    width: 55%;
+  }
+  .connection .connection-wrapper {
+    width: 55%;
+  }
+  .feedback .feedback-text {
+    width: 40%;
+    margin-left: 20%;
+  }
+}
+
 @media (max-width: 1250px) {
   .main-slider .slide-content h1 {
     width: 80%;
@@ -620,6 +639,21 @@ th {
   }
   .testimonials-wrapper {
     width: 90%;
+  }
+  .programs-wrapper .program-description {
+    width: 90%;
+  }
+  .open-program {
+    width: 100%;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .open-program .program .program-name {
+    width: 40%;
+  }
+  .new-program {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -814,5 +848,37 @@ th {
   }
   .feedback-nav {
     width: 90%;
+  }
+  .programs-wrapper {
+    padding: 50px 0;
+  }
+  .programs-wrapper .program-offer {
+    font-size: 1.3rem;
+  }
+  .programs-wrapper .program-description {
+    width: 100%;
+  }
+  .open-program .program .program-name {
+    width: 80%;
+  }
+  .open-program .program .program-img img {
+    width: 85px;
+  }
+  .open-program .program a {
+    font-size: 1.1rem;
+  }
+  .open-program .program p {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+  .new-program {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .new-program .program .program-img img {
+    width: 60px;
+  }
+  .new-program .program a {
+    font-size: 0.95rem;
   }
 }
