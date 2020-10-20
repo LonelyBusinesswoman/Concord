@@ -55,7 +55,7 @@
                 <nav>
                     <ul>
                         <li><a href="#">About us</a></li>
-                        <li><a href="#">Programs</a></li>
+                        <li><a href="programs.php">Programs</a></li>
                         <li><a href="useful-links.php">Links</a></li>
                         <li><a href="testimonials.php">Testimonials</a></li>
                         <li><a href="blog.php">Blog</a></li>
@@ -87,7 +87,7 @@
         <div class="mob_wrap">
             <ul>
                 <li><a href="#">About us</a></li>
-                <li><a href="#">Programs</a></li>
+                <li><a href="programs.php">Programs</a></li>
                 <li><a href="useful-links.php">Links</a></li>
                 <li><a href="testimonials.php">Testimonials</a></li>
                 <li><a href="blog.php">Blog</a></li>

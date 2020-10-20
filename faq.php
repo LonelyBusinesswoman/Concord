@@ -1,7 +1,7 @@
 <?php include 'components/header.php'; ?>
 <main>
     <!-- page description -->
-    <section class="page-description blog-page">
+    <section class="page-description faq-page">
         <!-- decorative elements -->
         <div class="back-icon icon-1"><img src="img/icons/icon-element.svg" alt="icon"></div>
         <div class="back-icon icon-2"><img src="img/icons/icon-element.svg" alt="icon"></div>
@@ -10,7 +10,7 @@
             <h2>Frequently asked <br> questions</h2>
         </div>
         <div class="page-img">
-            <img src="img/faq-pic.jpg" alt="blog">
+            <img src="img/faq-pic.jpg" alt="faq">
         </div>
     </section>
     <!-- faq section -->

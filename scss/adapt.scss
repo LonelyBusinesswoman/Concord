@@ -456,6 +456,20 @@ footer{
     .new-program {
         grid-template-columns: repeat(2, 1fr);
     }
+    // SINGLE PROGRAM PAGE
+    .program-wrapper{
+        p, .certif-block{
+            width: 100%;
+        }
+    }
+}
+// SINGLE PROGRAM PAGE
+.program-page{
+    @media (max-width: 650px){
+        .page-name h2{
+            font-size: 3.2rem;
+        }
+    }
 }
 @media (max-width: 500px){
     // SLIDER
@@ -720,6 +734,38 @@ footer{
         }
         .program a{
             font-size: 0.95rem;
+        }
+    }
+    // SINGLE PAGE 
+    .program-page{
+        .page-name h2{
+            font-size: 2rem;
+        }
+        .page-name .enroll {
+            flex-direction: column;
+            width: 100%;
+            span, .action-btn{
+                width: 100%;
+            }
+            span{
+                margin-bottom: 20px;
+            }
+            .action-btn{
+                margin: 0;
+            }
+        }
+    }
+    .program-wrapper{
+        p{
+            font-size: 1rem;
+            line-height: 30px;
+        }
+        .certif-block{
+            flex-direction: column;
+            span{
+                margin-left: 0;
+                margin-top: 20px;
+            }
         }
     }
 }

@@ -655,6 +655,15 @@ th {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
+  .program-wrapper p, .program-wrapper .certif-block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .program-page .page-name h2 {
+    font-size: 3.2rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -880,5 +889,38 @@ th {
   }
   .new-program .program a {
     font-size: 0.95rem;
+  }
+  .program-page .page-name h2 {
+    font-size: 2rem;
+  }
+  .program-page .page-name .enroll {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .program-page .page-name .enroll span, .program-page .page-name .enroll .action-btn {
+    width: 100%;
+  }
+  .program-page .page-name .enroll span {
+    margin-bottom: 20px;
+  }
+  .program-page .page-name .enroll .action-btn {
+    margin: 0;
+  }
+  .program-wrapper p {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .program-wrapper .certif-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .program-wrapper .certif-block span {
+    margin-left: 0;
+    margin-top: 20px;
   }
 }

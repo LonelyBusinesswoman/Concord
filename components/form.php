@@ -1,4 +1,4 @@
-<section class="main-form">
+<section class="main-form" id="enroll">
     <div class="form-wrapper container">
         <form>
             <input type="text" placeholder="Your name">

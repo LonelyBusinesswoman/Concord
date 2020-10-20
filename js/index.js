@@ -100,5 +100,12 @@ $(document).ready(function() {
       if (this.href == window.location.href) {
           $(this).addClass("currentLink");
       }
+    });
+    // scroll to form - enroll button
+    $(function(){
+      $('.enroll-btn').on('click', function(e){
+        $('html,body').stop().animate({ scrollTop: $('#enroll').offset().top - 50 }, 1000);
+        e.preventDefault();
+      });
   });
 })

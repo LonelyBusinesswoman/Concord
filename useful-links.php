@@ -1,7 +1,7 @@
 <?php include 'components/header.php'; ?>
 <main>
     <!-- page description -->
-    <section class="page-description blog-page">
+    <section class="page-description links-page">
         <!-- decorative elements -->
         <div class="back-icon icon-1"><img src="img/icons/icon-element.svg" alt="icon"></div>
         <div class="back-icon icon-2"><img src="img/icons/icon-element.svg" alt="icon"></div>
@@ -11,7 +11,7 @@
             <span>Here are some external milks that might help you to fing information you might be looking for but was unable to find</span>
         </div>
         <div class="page-img">
-            <img src="img/links-pic.jpg" alt="blog">
+            <img src="img/links-pic.jpg" alt="links">
         </div>
     </section>
     <!-- links section -->
