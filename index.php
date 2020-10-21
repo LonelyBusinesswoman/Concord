@@ -100,7 +100,7 @@
                 <?php endfor; ?>
             </div>
             <!-- explore -->
-            <a href="#" class="default-btn transparent-btn">Explore all possibilities</a>
+            <a href="programs.php" class="default-btn transparent-btn">Explore all possibilities</a>
         </div>
     </section>
     
@@ -123,10 +123,10 @@
             <div class="team-descr">
                 <h3>Guided by the team of professionals</h3>
                 <p>We provide personalized job placement assistance for recent and former graduates, including resume service.</p>
-                <a href="#" class="default-btn transparent-btn">Learn more about us</a>
+                <a href="about-us.php" class="default-btn transparent-btn">Learn more about us</a>
             </div>
         </div>
-        <a href="#" class="default-btn transparent-btn mob-btn">Learn more about us</a>
+        <a href="about-us.php" class="default-btn transparent-btn mob-btn">Learn more about us</a>
     </section>
 
     <!-- feedback -->
@@ -138,7 +138,7 @@
                 <!-- text -->
                 <p>As our graduates say:</p>
                 <span>The program is user-friendly, very convenient, cost-effective and it will better your career outlook</span>
-                <a href="#" class="default-btn transparent-btn">more comments from our students</a>
+                <a href="testimonials.php" class="default-btn transparent-btn">more comments from our students</a>
             </div>
             <div class="feedback-img">
                 <img src="img/feedback-img.jpg" alt="feedback">
@@ -184,7 +184,7 @@
                 <?php endfor; ?>
             </div>
         </div>
-        <a href="#" class="default-btn transparent-btn">Read our blog</a>
+        <a href="blog.php" class="default-btn transparent-btn">Read our blog</a>
     </section>
 </main>
 <?php include 'components/footer.php'; ?>
