@@ -10,7 +10,7 @@
             <h2>Testimonials</h2>
         </div>
         <div class="page-img">
-            <img src="img/Testimonials-pic.jpg" alt="testimonials">
+            <img src="img/testimonials-pic.jpg" alt="testimonials">
         </div>
     </section>
     <!-- testimonials -->

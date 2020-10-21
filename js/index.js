@@ -108,4 +108,43 @@ $(document).ready(function() {
         e.preventDefault();
       });
   });
+  // ABOUT US
+  // tabs 
+  $(".team-tab").not(":first").hide();
+  $(".buttons .tab-btn").click(function() {
+    $(".buttons .tab-btn").removeClass("active").eq($(this).index()).addClass("active");
+    $(".team-tab").hide().eq($(this).index()).fadeIn()
+  }).eq(0).addClass("active");
+
+  // gallery
+    $('.gallery').each(function() { // the containers for all your galleries
+      $(this).magnificPopup({
+          delegate: 'a', // the selector for gallery item
+          type: 'image',
+          gallery: {
+            enabled:true
+          }
+      });
+  });
+  // open gallery
+  $('#open-all').on('click', function(e){
+    e.preventDefault();
+    $(this).css('display', 'none');
+    $('.gallery').addClass('gallery-open');
+    $('.shadow').addClass('shadow-hidden');
+  })
+
+  // 
+  $('.feedback-slider').slick({
+    infinite: true,
+    variableWidth: true,
+    centerMode: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: false,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true
+  });
 })

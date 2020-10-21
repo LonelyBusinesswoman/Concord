@@ -114,36 +114,10 @@
         <div class="team-wrapper">
             <!-- slider -->
             <div class="team-slider">
-                <!-- slide -->
-                <div class="team-slide">
-                    <div class="slide-wrapper">
-                        <img src="img/team-mate.png" alt="teammate">
-                        <p class="name">Yulia Hickey</p>
-                        <span class="position">Clinical Medical Assistant program instructor</span>
-                        <span class="description">Graduated from Kemerovo State Medical Academy in 1995 with a degree in Epidemiology and worked in Kemerovo state hospital as a laboratory technologist for nine years</span>
-                    </div>
-                </div>
-
-                <!-- slide -->
-                <div class="team-slide">
-                    <div class="slide-wrapper">
-                        <img src="img/team-mate2.png" alt="teammate">
-                        <p class="name">Gregory Zilberman</p>
-                        <span class="position">Licenced NCLEX-RN Review instructor</span>
-                        <span class="description">Originally Gregory is from Ukraine and got the primary medical education and work experience there. He worked as a Physician assistant until emigrated to the United States in 1987.
-                            He has worked in different nursing fields, and as of today, holds a position as a surgical/clinical registered nurse.</span>
-                    </div>
-                </div>
-
-                 <!-- slide -->
-                 <div class="team-slide">
-                    <div class="slide-wrapper">
-                        <img src="img/team-mate.png" alt="teammate">
-                        <p class="name">Yulia Hickey</p>
-                        <span class="position">Clinical Medical Assistant program instructor</span>
-                        <span class="description">Graduated from Kemerovo State Medical Academy in 1995 with a degree in Epidemiology and worked in Kemerovo state hospital as a laboratory technologist for nine years</span>
-                    </div>
-                </div>
+                <!-- slides -->
+                 <?php for($i = 0; $i < 4; $i++): ?>
+                    <?php include 'components/team-mate.php' ?>
+                <?php endfor; ?>
             </div>
             <!-- descr -->
             <div class="team-descr">

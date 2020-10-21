@@ -265,6 +265,14 @@ h3{
         text-align: right;
     }
 }
+// team mate block
+.team-slide{
+    width: 100%;
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 50px;
+}
 // page descroption block
 .page-description{
     width: 100%;
@@ -878,13 +886,6 @@ footer{
     .team-slider{
         width: 50%;
     }
-    .team-slide{
-        width: 100%;
-        display: flex;
-        background: #FFFFFF;
-        border-radius: 5px;
-        margin-top: 50px;
-    }
     .slide-wrapper{
         margin: 0 auto;
         width: 80%;
@@ -1372,4 +1373,356 @@ footer{
             letter-spacing: -0.02em;
         }
     }
+}
+// ABOUT US PAGE
+.aboutus-info{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.aboutus-wrapper{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    padding: 70px 0;
+    p, .license-block, .column-text{
+        width: 80%;
+        font-weight: 300;
+        font-size: 1.2rem;
+        line-height: 35px;
+        letter-spacing: -0.02em;
+        margin-bottom: 20px;
+    }
+    p:first-child{
+        margin-bottom: 0;
+    }
+    .license-block{
+        display: flex;
+        padding: 70px 0;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            width: 165px;
+        }
+        .license-text{
+            display: flex;
+            flex-direction: column;
+            width: 78%;
+        }
+        span{
+            font-weight: 500;
+            font-size: 1.3rem;
+            line-height: 30px;
+            letter-spacing: -0.02em;
+            margin-bottom: 15px;
+        }
+        p{
+            font-weight: 300;
+            font-size: 1.1rem;
+            margin-bottom: 0;
+        }
+        a{
+            color: $grey;
+            font-weight: 500;
+            padding-bottom: 2px;
+            border-bottom: 1px solid $mainRed;
+        }
+    }
+    // video
+    .aboutus-video{
+        width: 90%;
+        display: flex;
+        padding: 70px 0;
+        iframe{
+            width: 100%;
+            min-height: 500px;
+            height: 500px;
+        }
+    }
+    // column text
+    .column-text{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        p{
+            width: 40%;
+            font-size: 1.1rem;
+        }
+    }
+}
+.aboutus-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    h2{
+        font-weight: 500;
+        font-size: 2.8rem;
+        line-height: 40px;
+    }
+}
+// team
+.aboutus-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    position: relative;
+    .icon-1{
+        width: 20%;
+        left: -4%;
+        top: -10%;
+    }
+    .icon-2{
+        width: 10%;
+        left: -2%;
+        top: 30%;
+    }
+    .icon-3{
+        width: 8%;
+        left: 10%;
+        top: 60%;
+    }
+    .icon-4{
+        width: 15%;
+        left: 0%;
+        bottom: 10%
+    }
+    .icon-5{
+        width: 16%;
+        right: 18%;
+        top: 5%;
+    }
+    .icon-6{
+        width: 10%;
+        right: 0%;
+        top: 30%;
+    }
+    .icon-7{
+        width: 16%;
+        right: 3%;
+        bottom: 30%;
+    }
+    .icon-8{
+        width: 10%;
+        right: 0%;
+        bottom:0%
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        .tab-btn{
+            background-color: transparent;
+            border: 1px solid $mainBlue;
+            width: 160px;
+            padding: 10px 0;
+            cursor: pointer;
+            text-align: center;
+        }
+        .instructors-btn{
+            border-radius: 100px 0px 0px 100px;
+        }
+        .management-btn{
+            border-radius: 0px 100px 100px 0px;
+        }
+        .active{
+            background-color: $mainBlue;
+            color: #fff;
+        }
+    }
+    .tabs-wrapper{
+        z-index: 10;
+        width: 80%;
+        padding-top: 80px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        span{
+            width: 70%;
+            font-weight: 500;
+            font-size: 1.2rem;
+            line-height: 30px;
+        }
+        .team-tab{
+            width: 100%;
+            display: flex; 
+            flex-direction: column;
+        }
+        .active{
+            display: flex;
+        }
+        // slide
+        .slide-wrapper{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding: 60px 100px;
+            img{
+                width: 150px;
+                position: absolute;
+                top: 40px;
+                left: -100px;
+            }
+            .name{
+                font-weight: 500;
+                font-size: 1.9rem;
+                line-height: 25px;
+                margin-bottom: 10px;
+            }
+            .position{
+                width: 100%;
+                font-weight: 500;
+                font-style: italic;
+                font-size: 0.9rem;
+                line-height: 20px;
+                color: #1B68C2;
+                margin-bottom: 40px;
+            }
+            .description{
+                width: 100%;
+                font-weight: 300;
+                font-size: 1rem;
+                line-height: 25px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+// mission
+.aboutus-mission{
+    z-index: 10;
+    display: flex;
+    padding: 100px 0;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .mission-content{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        p{
+            font-weight: 300;
+            font-size: 1.2rem;
+            line-height: 35px;
+            letter-spacing: -0.02em;
+        }
+        ul{
+            margin-top: 35px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        li{
+            display: flex;
+            margin-bottom: 30px;
+        }
+        .line{
+            margin-top: 10px;
+            width: 25px;
+            height: 5px;
+            background-color: $mainRed;
+            margin-right: 15px;
+        }
+        span{
+            width: 90%;
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 25px;
+
+        }
+    }
+}
+// gallery
+.aboutus-gallery{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    .transparent-btn{
+        margin: 0 auto;
+    }
+}
+.gallery{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    a{
+        display: flex;
+        img{
+            width: 100%;
+            -o-object-fit: cover;
+               object-fit: cover;
+        }
+    }
+    .shadow{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 260px;
+        background: linear-gradient(0deg, #F1F7F9 0%, rgba(242, 248, 250, 0.79) 34.37%, rgba(243, 251, 253, 0) 100%)
+    }
+    .shadow-hidden{
+        display: none;
+    }
+}
+.gallery-open{
+    height: 100% !important;
+}
+img.mfp-img {
+    width: 60vw !important;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 40px 0 40px;
+    margin: 0 auto;
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+}
+// testimonials
+.aboutus-testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .descr{
+        width: 70%;
+        font-weight: 300;
+        font-size: 1.2rem;
+        line-height: 35px;
+        letter-spacing: -0.02em;
+        margin-top: 40px;
+    }
+}
+
+.feedback-slider{
+    width: 100%;
+    .slick-list {
+        margin: 0 -25px;
+      }
+    .slick-slide{
+        display: flex !important;
+        width: 650px !important;
+        margin: 50px 25px;
+    }
+}
+.more-comments{
+    margin: 0 auto;
+    margin-bottom: 80px;
 }

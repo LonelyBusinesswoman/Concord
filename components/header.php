@@ -9,12 +9,14 @@
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<!-- Main CSS -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=5">
     <!-- Adapt CSS -->
-    <link rel="stylesheet" type="text/css" href="css/adapt.css">
+    <link rel="stylesheet" type="text/css" href="css/adapt.css?v=5">
     <!-- slick CSS -->
     <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
+    <!-- magnific popup -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 </head>
 <body>
      <!-- for header -->
@@ -54,7 +56,7 @@
                 <!-- nav -->
                 <nav>
                     <ul>
-                        <li><a href="#">About us</a></li>
+                        <li><a href="about-us.php">About us</a></li>
                         <li><a href="programs.php">Programs</a></li>
                         <li><a href="useful-links.php">Links</a></li>
                         <li><a href="testimonials.php">Testimonials</a></li>
@@ -86,7 +88,7 @@
         <!-- wrap -->
         <div class="mob_wrap">
             <ul>
-                <li><a href="#">About us</a></li>
+                <li><a href="about-us.php">About us</a></li>
                 <li><a href="programs.php">Programs</a></li>
                 <li><a href="useful-links.php">Links</a></li>
                 <li><a href="testimonials.php">Testimonials</a></li>

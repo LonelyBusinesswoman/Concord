@@ -279,6 +279,15 @@ footer{
     .feedback .feedback-text {
         width: 50%;
     }
+    // ABOUT US PAGE
+    .aboutus-wrapper{
+        p, .license-block, .column-text{
+            width: 90%;
+        }
+    }
+    .gallery {
+        height: 80vh;
+    }
 }
 
 @media (max-width: 950px){
@@ -462,15 +471,174 @@ footer{
             width: 100%;
         }
     }
+    // ABOUT US PAGE
+    .aboutus-wrapper{
+        width: 90%;
+        p, .license-block, .column-text{
+            width: 100%;
+        }
+        // video
+        .aboutus-video{
+            width: 100%;
+            iframe{
+                min-height: 370px;
+                height: 370px;
+            }
+        }
+    }
+    // title
+    .aboutus-title{
+       flex-direction: column;
+        h2{
+            margin-bottom: 40px;
+        }
+    }
+    // team
+    .aboutus-team .tabs-wrapper {
+        width: 100%;
+        span{
+            width: 90%;
+        }
+        .team-slide{
+            width: 84%;
+            margin-left: 16%;
+        }
+    }
+    // missions
+    .aboutus-mission .mission-content {
+        width: 100%;
+    }
+    // gallery
+    .gallery {
+        height: 80vh;
+        grid-template-columns: repeat(2,1fr);
+        a img{
+            min-height: 250px;
+            height: 250px;
+        }
+    }
+    img.mfp-img {
+        width: 80vw !important;
+    }
+    // feedback
+    .aboutus-testimonials .descr{
+        width: 100%;
+    }
+    .feedback-slider{
+        .slick-slide{
+            width: 550px !important;
+        }
+    }
 }
-// SINGLE PROGRAM PAGE
-.program-page{
-    @media (max-width: 650px){
+
+@media (max-width: 650px){
+    // SINGLE PROGRAM PAGE
+    .program-page{
         .page-name h2{
             font-size: 3.2rem;
         }
     }
+    // ABOUT US PAGE TEAM BLOCK
+    // title
+    .aboutus-title h2 {
+        font-size: 1.6rem;
+    }
+    // p and license
+    .aboutus-wrapper {
+        p{
+            font-size: 1rem;
+            line-height: 30px;
+        }
+        // license
+        .license-block{
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            .license-text{
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+            // video
+        .aboutus-video{
+            iframe{
+                min-height: 170px;
+                height: 170px;
+            }
+        }
+        // column
+        .column-text{
+            flex-direction: column;
+            p{
+                width: 100%;
+            }
+        }
+    }
+    // team
+    .aboutus-team{
+        padding: 50px 0;
+        .tabs-wrapper{
+            // slide
+            .team-slide{
+                width: 100%;
+                margin-left: 0;
+            }
+            // wrapper
+            .slide-wrapper{
+                padding: 30px 20px;
+                img{
+                    width: 85px;
+                    margin-bottom: 20px;
+                    margin-top: -60px;
+                    position: static;
+                }
+                .name {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    // mission
+    .aboutus-mission{
+        padding: 50px 0;
+        .aboutus-title h2{
+            margin-bottom: 0;
+        }
+    }
+    // team
+    .aboutus-team .tabs-wrapper {
+        padding-top: 40px;
+        span{
+            width: 100%;
+            font-size: 1rem;
+        }
+    }
+    // gallery
+    .gallery {
+        height: 100vh;
+        grid-template-columns: 1fr;
+        a img{
+            min-height: 200px;
+            height: 200px;
+        }
+    }
+    //feedback
+    .aboutus-testimonials{
+        .aboutus-title h2{
+            margin-bottom: 0;
+        }
+    }
+    .feedback-slider{
+        .slick-slide{
+            width: 300px !important;
+        }
+    }
+    .more-comments {
+        width: 70%;
+        line-height: 20px;
+    }
 }
+
 @media (max-width: 500px){
     // SLIDER
     .main-slider{
