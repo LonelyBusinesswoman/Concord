@@ -7,7 +7,7 @@
         <div class="back-icon icon-2"><img src="img/icons/icon-element.svg" alt="icon"></div>
         <div class="back-icon icon-3"><img src="img/icons/icon-element.svg" alt="icon"></div> 
         <div class="page-name">
-            <h2>Our programs</h2>
+            <h1>Our programs</h1>
             <span>Learn more about our tailored, NY State licensed programs</span>
         </div>
         <div class="page-img">

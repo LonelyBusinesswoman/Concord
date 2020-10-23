@@ -136,7 +136,7 @@
                 <!-- quotes -->
                 <img src="img/icons/quotes.svg" alt="quotes">
                 <!-- text -->
-                <p>As our graduates say:</p>
+                <h3>As our graduates say:</h3>
                 <span>The program is user-friendly, very convenient, cost-effective and it will better your career outlook</span>
                 <a href="testimonials.php" class="default-btn transparent-btn">more comments from our students</a>
             </div>
@@ -179,9 +179,34 @@
             <h3>Recent on our blog</h3>
             <!-- grid -->
             <div class="news-grid">
-                <?php for($i = 0; $i < 3; $i++): ?>
-                    <?php include 'components/news_block.php' ?>
-                <?php endfor; ?>
+                <!-- example -->
+                <div class="news-block">
+                    <a href="article.php" class="news-link">
+                        <img src="img/news.jpg" alt="news">
+                        <h4>When Do You Require A Form I-20</h4>
+                    </a>
+                    <span>When Do You Require A Form I-20 Each F and M apprentices that study in the US requires a Form I-20, “Certificate of Eligibility</span>
+                    <a href="article.php" class="continue">Continue reading</a>
+                </div>
+                <!-- example -->
+                <div class="news-block">
+                    <a href="article.php" class="news-link">
+                        <img src="img/news.jpg" alt="news">
+                        <h4>When Do You Require A Form I-20</h4>
+                    </a>
+                    <span>When Do You Require A Form I-20 Each F and M apprentices that study in the US requires a Form I-20, “Certificate of Eligibility</span>
+                    <a href="article.php" class="continue">Continue reading</a>
+                </div>
+                <!-- example -->
+                <div class="news-block">
+                    <a href="article.php" class="news-link">
+                        <img src="img/news.jpg" alt="news">
+                        <h4>When Do You Require A Form I-20</h4>
+                    </a>
+                    <span>When Do You Require A Form I-20 Each F and M apprentices that study in the US requires a Form I-20, “Certificate of Eligibility</span>
+                    <a href="article.php" class="continue">Continue reading</a>
+                </div>
+
             </div>
         </div>
         <a href="blog.php" class="default-btn transparent-btn">Read our blog</a>

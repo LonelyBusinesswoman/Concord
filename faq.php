@@ -7,7 +7,7 @@
         <div class="back-icon icon-2"><img src="img/icons/icon-element.svg" alt="icon"></div>
         <div class="back-icon icon-3"><img src="img/icons/icon-element.svg" alt="icon"></div> 
         <div class="page-name">
-            <h2>Frequently asked <br> questions</h2>
+            <h1>Frequently asked <br> questions</h1>
         </div>
         <div class="page-img">
             <img src="img/faq-pic.jpg" alt="faq">

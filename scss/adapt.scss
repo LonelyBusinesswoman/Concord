@@ -31,7 +31,7 @@
     .page-description{
         .page-name{
             padding: 30px 0;   
-            h2{
+            h1{
                 font-size: 2rem;
                 line-height: 35px;
                 letter-spacing: -0.05em;
@@ -245,6 +245,7 @@ footer{
         padding: 40px 20px;
         .default-btn{
             width: 100%;
+            padding: 8px 25px;
         }
     }
 }
@@ -289,11 +290,16 @@ footer{
         height: 80vh;
     }
 }
+@media (max-width: 1150px){
+    .page-description .page-name .enroll .action-btn {
+        margin-right: 0%;
+    }
+}
 
 @media (max-width: 950px){
     // SLIDER
     .main-slider{
-        padding-bottom: 60px;
+        padding-bottom: 30px;
         // dots
         .slick-dots {
             bottom: 12%;
@@ -316,9 +322,7 @@ footer{
             margin-top: 5%;
             margin-left: 5%;
             width: 100%;
-            .action-btn {
-                width: 18%;
-            }
+            padding-bottom: 30px;
         }
     }
     // OPPORTUNITIES BLOCK
@@ -423,7 +427,6 @@ footer{
             }
         }
         .transparent-btn{
-            min-width: 35%;
             margin: 10% auto;
             margin-left: 5%;
         }
@@ -469,6 +472,7 @@ footer{
     .program-wrapper{
         p, .certif-block{
             width: 100%;
+            margin-left: 0;
         }
     }
     // ABOUT US PAGE
@@ -477,13 +481,14 @@ footer{
         p, .license-block, .column-text{
             width: 100%;
         }
-        // video
-        .aboutus-video{
-            width: 100%;
-            iframe{
-                min-height: 370px;
-                height: 370px;
-            }
+    }
+    // video
+    .aboutus-video{
+        width: 100%;
+        margin-left: 0;
+        iframe{
+            min-height: 370px;
+            height: 370px;
         }
     }
     // title
@@ -494,19 +499,28 @@ footer{
         }
     }
     // team
-    .aboutus-team .tabs-wrapper {
-        width: 100%;
-        span{
-            width: 90%;
+    .aboutus-team {
+        .back-icon{
+            display: none;
         }
-        .team-slide{
-            width: 84%;
-            margin-left: 16%;
+        .tabs-wrapper {
+            width: 100%;
+            span{
+                width: 90%;
+            }
+            .team-slide{
+                width: 84%;
+                margin-left: 16%;
+            }
         }
     }
+    
     // missions
     .aboutus-mission .mission-content {
         width: 100%;
+        p{
+            width: 100%;
+        }
     }
     // gallery
     .gallery {
@@ -633,13 +647,28 @@ footer{
             width: 300px !important;
         }
     }
-    .more-comments {
-        width: 70%;
-        line-height: 20px;
+    // enroll
+    .page-description .page-name .enroll {
+        width: 100%;
     }
 }
 
 @media (max-width: 500px){
+    // BLOG PAGE H2
+    .blog-page{
+        h2{
+            font-size: 2rem;
+            line-height: 35px;
+            letter-spacing: -0.05em;
+        }
+    }
+    // ABOUT US MORE COMMENTS BUTTON    
+    .more-comments {
+        line-height: 20px;
+        margin: 5%;
+        margin-bottom: 50px;
+        padding: 16px 45px;
+    }
     // SLIDER
     .main-slider{
         // dots
@@ -662,13 +691,41 @@ footer{
             p {
                 width: 90%;
                 font-size: 1rem;
-                line-height: 25px;      
+                line-height: 25px;    
+                margin-bottom: 20px;  
             }
         }
     }
     // OPPORTUNITIES
     .opportunities{
+        .icon-1 {
+            width: 36%;
+            left: -8%;
+            top: -5%;
+        }
+        .icon-3 {
+            width: 25%;
+            left: 8%;
+            top: 55%;
+        }
+        .icon-4 {
+            width: 24%;
+            right: -2%;
+            top: -1%;
+        }
+        .icon-5 {
+            width: 40%;
+            right: -1%;
+            bottom: 10%;
+        }
+        .icon-6 {
+            width: 25%;
+            right: 15%;
+            top: 25%;
+        }
+       
         .opportunities-wrapper{
+            padding: 50px 0;
             h2{
                 width: 90%;
             }
@@ -710,6 +767,9 @@ footer{
     }
     // TEAM BLOCK
     .team{
+        .back-icon{
+            display: none;
+        }
         .team-descr {
             width: 100%;
                 p {
@@ -814,8 +874,8 @@ footer{
             line-height: 30px;
         }
         .contact-inf__block{
-            img{
-                width: 32px;
+            img, svg{
+                width: 40px;
                 margin-right: 20px;
             }
             p, a{
@@ -911,7 +971,6 @@ footer{
         }
         .page-name .enroll {
             flex-direction: column;
-            width: 100%;
             span, .action-btn{
                 width: 100%;
             }
@@ -934,6 +993,17 @@ footer{
                 margin-left: 0;
                 margin-top: 20px;
             }
+            img {
+                width: 90px;
+            }
+        }
+    }
+    // ABOUT US PAGE
+    // missions
+     .aboutus-mission .mission-content {
+        width: 100%;
+        ul{
+            margin-left: 40px;
         }
     }
 }

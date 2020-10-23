@@ -7,7 +7,7 @@
         <div class="back-icon icon-2"><img src="img/icons/icon-element.svg" alt="icon"></div>
         <div class="back-icon icon-3"><img src="img/icons/icon-element.svg" alt="icon"></div> 
         <div class="page-name">
-            <h2>About Us</h2>
+            <h1>About Us</h1>
             <span> <strong>Private Career School Concord Rusam</strong>  is dedicated to ensuring our programs are providing students with an excellent education that will lead them into a lifelong career. We are based in New York City and pride ourselves in having some of the most in-demand medical programs</span>
         </div>
         <div class="page-img">
@@ -17,7 +17,6 @@
     <!-- about us info -->
     <section class="aboutus-info">
         <div class="aboutus-wrapper">
-            
             <!-- text -->
             <p>Our school has cultivated a roster of successful alumni, whom have graduated from our programs and are employed in well-paying positions, such as Clinical Medical Assistant, Nurse Aide, Phlebotomy Technician, Electrocardiography Technician, Home Health Aide, Medical Billing and Coding, Pharmacy Technicians. Concord Rusam provides complete theoretic and practical education followed by national examination hosted on school premises. </p>
             <!-- license block -->
@@ -32,10 +31,18 @@
             <p>On-site state and national certification testing-Take your licensing exam at the same place you completed your training and practice.</p>
             <p>We are a certified testing site for all the national exams such as Phlebotomy Technician National Exam, Clinical Medical Assistant National Exam, EKG National Exam, Patient Care Technician National Exam.</p>
 
-            <!-- video -->
-            <div class="aboutus-video">
-                <iframe  src="https://www.youtube.com/embed/iKcWu0tsiZM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+        </div>
+    </section>
+
+     <!-- video -->
+     <section class="video">
+        <div class="aboutus-video">
+            <iframe  src="https://www.youtube.com/embed/iKcWu0tsiZM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+     </section>
+    
+    <section class="col-text">
+        <div class="aboutus-wrapper ">
             <!-- column text block -->
             <div class="column-text">
                 <p>Private Career School Concord Rusam provides the fastest and most effective career training programs in NYC at the lowest tuition costs. <br> <br>
@@ -45,7 +52,7 @@
             </div>
         </div>
     </section>
-
+    
     <!-- team -->
     <section class="aboutus-team">
          <!-- icons -->
@@ -73,7 +80,7 @@
                 <div class="tabs-content">
                     <!-- Instructors -->
                     <div class="team-tab">
-                        <?php for($i = 0; $i < 4; $i++): ?>
+                        <?php for($i = 0; $i < 7; $i++): ?>
                             <?php include 'components/team-mate.php' ?>
                         <?php endfor; ?>
                     </div>
@@ -100,11 +107,11 @@
                 <p>Our mission at Concord Rusam is to provide our students with high-quality post-secondary education and to prepare our graduates for entry-level positions. We are dedicated to achieving our goal by implementing the following:</p>
                 <!--  list  -->
                 <ul>
-                    <li><div class="line"></div> <span>Use innovative teaching methods as a means for students to retain the provided information more easily.</span></li>
-                    <li><div class="line"></div> <span>Annually review our curricula, equipment, and instructional material to make sure that students are receiving the most current information for their respective field.</span></li>
-                    <li><div class="line"></div> <span>Tend to all complaints and concerns as soon as they arise.</span></li>
-                    <li><div class="line"></div> <span>Provide resume workshops and interview preparation to assist students with attaining occupancy.</span></li>
-                    <li><div class="line"></div> <span>Continue correspondence with graduates to ensure that they are satisfied with the outcome of their education.</span></li>
+                    <li> Use innovative teaching methods as a means for students to retain the provided information more easily.</li>
+                    <li> Annually review our curricula, equipment, and instructional material to make sure that students are receiving the most current information for their respective field.</li>
+                    <li> Tend to all complaints and concerns as soon as they arise.</li>
+                    <li> Provide resume workshops and interview preparation to assist students with attaining occupancy.</li>
+                    <li> Continue correspondence with graduates to ensure that they are satisfied with the outcome of their education.</li>
                 </ul>
             </div>
 

@@ -7,7 +7,7 @@
         <div class="back-icon icon-2"><img src="img/icons/icon-element.svg" alt="icon"></div>
         <div class="back-icon icon-3"><img src="img/icons/icon-element.svg" alt="icon"></div> 
         <div class="page-name">
-            <h2>Electrocardiography Technician (ECG)</h2>
+            <h1>Electrocardiography Technician (ECG)</h1>
             <div class="enroll">
                 <span>This program is due to start at May 12 th 2021 and now open for registration</span>
                 <a href="#" class="default-btn action-btn enroll-btn">Enroll now</a>

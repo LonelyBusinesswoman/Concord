@@ -5,15 +5,17 @@
     display: inline-block;
     box-sizing: border-box;
     border-radius: 3px;
-    min-width: 150px;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 0.9rem;
     line-height: 35px;
-    padding: 6px 14px;
+    padding: 8px 33px;
     letter-spacing: 0.03em;
     transition: all ease 0.3s;
     text-align: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
 }
 @mixin action-btn(){
     background: $mainRed;
@@ -26,5 +28,4 @@
     background: transparent;
     border: 1px solid rgba(228, 28, 15, 0.3);
     color: $mainRed;
-    padding: 6px 14px;
 }
