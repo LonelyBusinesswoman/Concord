@@ -29,6 +29,21 @@
 }
 @media (max-width: 500px){
     .page-description{
+        .icon-1 {
+            width: 30%;
+            left: -5%;
+            top: -6%;
+        }
+        .icon-2 {
+            width: 20%;
+            top: 0%;
+            left: 80%;
+        }
+        .icon-3 {
+            width: 40%;
+            left: 60%;
+            top: 65%;
+        }
         .page-name{
             padding: 30px 0;   
             h1{
@@ -484,8 +499,8 @@ footer{
     }
     // video
     .aboutus-video{
-        width: 100%;
-        margin-left: 0;
+        width: 90%;
+        margin-left: 5%;
         iframe{
             min-height: 370px;
             height: 370px;
@@ -559,10 +574,12 @@ footer{
     }
     // p and license
     .aboutus-wrapper {
+        padding-top: 50px;
         p{
             font-size: 1rem;
             line-height: 30px;
         }
+        
         // license
         .license-block{
             flex-direction: column;
@@ -571,13 +588,9 @@ footer{
             .license-text{
                 width: 100%;
                 margin-top: 20px;
-            }
-        }
-            // video
-        .aboutus-video{
-            iframe{
-                min-height: 170px;
-                height: 170px;
+                p{
+                    font-size:0.9rem;
+                }
             }
         }
         // column
@@ -585,8 +598,15 @@ footer{
             flex-direction: column;
             p{
                 width: 100%;
+                font-size: 1rem;
+                line-height: 30px;
             }
         }
+    }
+    // col-wrapper
+    .col-wrapper{
+        padding-bottom: 50px;
+        padding-top: 0;
     }
     // team
     .aboutus-team{
@@ -662,6 +682,15 @@ footer{
             letter-spacing: -0.05em;
         }
     }
+    // video
+    .aboutus-video{
+        width: 100%;
+        margin-left: 0;
+        iframe{
+            min-height: 200px;
+            height: 200px;
+        }
+    }
     // ABOUT US MORE COMMENTS BUTTON    
     .more-comments {
         line-height: 20px;
@@ -725,7 +754,7 @@ footer{
         }
        
         .opportunities-wrapper{
-            padding: 50px 0;
+            padding: 60px 0;
             h2{
                 width: 90%;
             }
@@ -738,6 +767,9 @@ footer{
     }
     // POSSIBILITIES
     .possibilities{
+        .possibilities-wrapper {
+            padding: 60px 0;
+        }
         .possibilities-descr{
             width: 100%;
             p{
@@ -748,9 +780,9 @@ footer{
         }
         .possibilities-grid {
             width: 100%;
-            margin-top: 50px;
+            margin-top: 35px;
             grid-template-columns: 1fr;
-            grid-row-gap: 50px;
+            grid-row-gap: 30px;
         }
         // program img
         .program .program-img img {
@@ -767,6 +799,9 @@ footer{
     }
     // TEAM BLOCK
     .team{
+        .team-wrapper{
+            padding: 60px 0;
+        }
         .back-icon{
             display: none;
         }
@@ -805,6 +840,7 @@ footer{
             }
         }
         .feedback-text{
+            margin-bottom: 60px;
             span {
                 font-size: 1.2rem;
                 line-height: 30px;
@@ -935,6 +971,7 @@ footer{
         padding: 50px 0;
         .program-offer{
             font-size: 1.3rem;
+            line-height: 30px;
         }
         .program-description{
             width: 100%;
@@ -1006,4 +1043,8 @@ footer{
             margin-left: 40px;
         }
     }
+    // team tabs
+    .aboutus-team .tabs-wrapper .team-tab .team-slide {
+        margin-top: 50px;
+     }
 }

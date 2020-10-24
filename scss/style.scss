@@ -168,6 +168,7 @@ h3{
 // program block
 .program{
     display: flex;
+    align-items: center ;
     .program-img{
         margin-right: 10px;
         img{
@@ -272,6 +273,7 @@ h3{
     background: #FFFFFF;
     border-radius: 5px;
     margin-top: 50px;
+    box-shadow: 0px 9px 17px rgba(196, 201, 204, 0.08);
 }
 // page descroption block
 .page-description{
@@ -803,7 +805,7 @@ footer{
     align-items: center;
     z-index: 5;
     .possibilities-wrapper{
-        padding: 80px 0 100px 0;
+        padding: 90px 0;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -822,10 +824,13 @@ footer{
         }
     }
     .possibilities-grid{
-        width: 55%;
+        width: 50%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 30px;
+        .program{
+            align-items: flex-start;
+        }
     }
     .transparent-btn{
         margin-top: 40px;
@@ -861,7 +866,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 80px 0 130px 0;
+        padding: 60px 0 120px 0;
     }
     // dots
     .slick-dots{
@@ -1401,7 +1406,7 @@ footer{
     display: flex;
     width: 75%;
     flex-direction: column;
-    padding: 70px 0;
+    padding-top: 70px;
     p, .license-block, .column-text{
         width: 80%;
         font-weight: 300;
@@ -1410,12 +1415,17 @@ footer{
         letter-spacing: -0.02em;
         margin-bottom: 20px;
     }
+    .column-text{
+        margin-bottom: 0;
+    }
     p:first-child{
         margin-bottom: 0;
     }
     .license-block{
+        margin-bottom: 0;
         display: flex;
         padding: 70px 0;
+        padding-top: 50px;
         align-items: center;
         justify-content: space-between;
         img{
@@ -1455,6 +1465,10 @@ footer{
             font-size: 1.1rem;
         }
     }
+}
+.col-wrapper{
+    padding-top: 0;
+    padding-bottom: 70px;
 }
 .col-text{
     width: 100%;
@@ -1581,6 +1595,9 @@ footer{
             width: 100%;
             display: flex; 
             flex-direction: column;
+            .team-slide{
+                margin-top: 30px;
+            }
         }
         .active{
             display: flex;

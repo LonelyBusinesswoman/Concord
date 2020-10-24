@@ -194,6 +194,21 @@ th {
 }
 
 @media (max-width: 500px) {
+  .page-description .icon-1 {
+    width: 30%;
+    left: -5%;
+    top: -6%;
+  }
+  .page-description .icon-2 {
+    width: 20%;
+    top: 0%;
+    left: 80%;
+  }
+  .page-description .icon-3 {
+    width: 40%;
+    left: 60%;
+    top: 65%;
+  }
   .page-description .page-name {
     padding: 30px 0;
   }
@@ -676,8 +691,8 @@ th {
     width: 100%;
   }
   .aboutus-video {
-    width: 100%;
-    margin-left: 0;
+    width: 90%;
+    margin-left: 5%;
   }
   .aboutus-video iframe {
     min-height: 370px;
@@ -738,6 +753,9 @@ th {
   .aboutus-title h2 {
     font-size: 1.6rem;
   }
+  .aboutus-wrapper {
+    padding-top: 50px;
+  }
   .aboutus-wrapper p {
     font-size: 1rem;
     line-height: 30px;
@@ -758,9 +776,8 @@ th {
     width: 100%;
     margin-top: 20px;
   }
-  .aboutus-wrapper .aboutus-video iframe {
-    min-height: 170px;
-    height: 170px;
+  .aboutus-wrapper .license-block .license-text p {
+    font-size: 0.9rem;
   }
   .aboutus-wrapper .column-text {
     -webkit-box-orient: vertical;
@@ -770,6 +787,12 @@ th {
   }
   .aboutus-wrapper .column-text p {
     width: 100%;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .col-wrapper {
+    padding-bottom: 50px;
+    padding-top: 0;
   }
   .aboutus-team {
     padding: 50px 0;
@@ -829,6 +852,14 @@ th {
     line-height: 35px;
     letter-spacing: -0.05em;
   }
+  .aboutus-video {
+    width: 100%;
+    margin-left: 0;
+  }
+  .aboutus-video iframe {
+    min-height: 200px;
+    height: 200px;
+  }
   .more-comments {
     line-height: 20px;
     margin: 5%;
@@ -880,7 +911,7 @@ th {
     top: 25%;
   }
   .opportunities .opportunities-wrapper {
-    padding: 50px 0;
+    padding: 60px 0;
   }
   .opportunities .opportunities-wrapper h2 {
     width: 90%;
@@ -889,6 +920,9 @@ th {
     width: 95%;
     font-size: 1rem;
     line-height: 30px;
+  }
+  .possibilities .possibilities-wrapper {
+    padding: 60px 0;
   }
   .possibilities .possibilities-descr {
     width: 100%;
@@ -900,10 +934,10 @@ th {
   }
   .possibilities .possibilities-grid {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 35px;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-row-gap: 50px;
+    grid-row-gap: 30px;
   }
   .possibilities .program .program-img img {
     width: 75px;
@@ -914,6 +948,9 @@ th {
   .possibilities .transparent-btn {
     margin: 0 auto;
     margin-top: 50px;
+  }
+  .team .team-wrapper {
+    padding: 60px 0;
   }
   .team .back-icon {
     display: none;
@@ -950,6 +987,9 @@ th {
   }
   .feedback .feedback-img img {
     min-height: 200px;
+  }
+  .feedback .feedback-text {
+    margin-bottom: 60px;
   }
   .feedback .feedback-text span {
     font-size: 1.2rem;
@@ -1063,6 +1103,7 @@ th {
   }
   .programs-wrapper .program-offer {
     font-size: 1.3rem;
+    line-height: 30px;
   }
   .programs-wrapper .program-description {
     width: 100%;
@@ -1130,5 +1171,8 @@ th {
   }
   .aboutus-mission .mission-content ul {
     margin-left: 40px;
+  }
+  .aboutus-team .tabs-wrapper .team-tab .team-slide {
+    margin-top: 50px;
   }
 }

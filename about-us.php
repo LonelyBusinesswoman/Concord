@@ -42,7 +42,7 @@
      </section>
     
     <section class="col-text">
-        <div class="aboutus-wrapper ">
+        <div class="aboutus-wrapper col-wrapper">
             <!-- column text block -->
             <div class="column-text">
                 <p>Private Career School Concord Rusam provides the fastest and most effective career training programs in NYC at the lowest tuition costs. <br> <br>
