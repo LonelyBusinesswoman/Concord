@@ -2149,11 +2149,23 @@ footer {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  position: relative;
+}
+
+.links-wrapper .li::before {
+  position: absolute;
+  width: 30px;
+  content: "";
+  background: url("../img/icons/link-icon-2.svg") no-repeat center;
 }
 
 .links-wrapper img {
   width: 28px;
   margin-right: 12px;
+}
+
+.links-wrapper .link__text {
+  width: 90%;
 }
 
 .links-wrapper a {
@@ -2178,7 +2190,7 @@ footer {
 }
 
 .links-wrapper span {
-  display: inline-block;
+  display: block;
   width: 50%;
   margin-top: 12px;
   font-weight: 300;
