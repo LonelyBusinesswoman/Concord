@@ -1,13 +1,13 @@
 <?php include 'components/header.php'; ?>
 <main>
     <!-- page description -->
-    <section class="page-description article-page">
+    <section class="page-description blog-page article-page">
         <!-- decorative elements -->
         <div class="back-icon icon-1"><img src="img/icons/icon-element.svg" alt="icon"></div>
         <div class="back-icon icon-2"><img src="img/icons/icon-element.svg" alt="icon"></div>
         <div class="back-icon icon-3"><img src="img/icons/icon-element.svg" alt="icon"></div> 
         <div class="page-name">
-            <h1>Our blog</h1>
+            <h2>Our blog</h2>
         </div>
         <div class="page-img">
             <img src="img/blog-pic.jpg" alt="article">

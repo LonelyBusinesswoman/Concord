@@ -9,9 +9,9 @@
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<!-- Main CSS -->
-	<link rel="stylesheet" type="text/css" href="css/style.css?v=8">
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=9">
     <!-- Adapt CSS -->
-    <link rel="stylesheet" type="text/css" href="css/adapt.css?v=8">
+    <link rel="stylesheet" type="text/css" href="css/adapt.css?v=9">
     <!-- slick CSS -->
     <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
