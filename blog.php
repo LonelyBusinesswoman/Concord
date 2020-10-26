@@ -7,7 +7,7 @@
         <div class="back-icon icon-2"><img src="img/icons/icon-element.svg" alt="icon"></div>
         <div class="back-icon icon-3"><img src="img/icons/icon-element.svg" alt="icon"></div> 
         <div class="page-name">
-            <h2>Our blog</h2>
+            <h1>Our blog</h1>
         </div>
         <div class="page-img">
             <img src="img/blog-pic.jpg" alt="blog">

@@ -179,33 +179,9 @@
             <h3>Recent on our blog</h3>
             <!-- grid -->
             <div class="news-grid">
-                <!-- example -->
-                <div class="news-block">
-                    <a href="article.php" class="news-link">
-                        <img src="img/news.jpg" alt="news">
-                        <h4>When Do You Require A Form I-20</h4>
-                    </a>
-                    <span>When Do You Require A Form I-20 Each F and M apprentices that study in the US requires a Form I-20, “Certificate of Eligibility</span>
-                    <a href="article.php" class="continue">Continue reading</a>
-                </div>
-                <!-- example -->
-                <div class="news-block">
-                    <a href="article.php" class="news-link">
-                        <img src="img/news.jpg" alt="news">
-                        <h4>When Do You Require A Form I-20</h4>
-                    </a>
-                    <span>When Do You Require A Form I-20 Each F and M apprentices that study in the US requires a Form I-20, “Certificate of Eligibility</span>
-                    <a href="article.php" class="continue">Continue reading</a>
-                </div>
-                <!-- example -->
-                <div class="news-block">
-                    <a href="article.php" class="news-link">
-                        <img src="img/news.jpg" alt="news">
-                        <h4>When Do You Require A Form I-20</h4>
-                    </a>
-                    <span>When Do You Require A Form I-20 Each F and M apprentices that study in the US requires a Form I-20, “Certificate of Eligibility</span>
-                    <a href="article.php" class="continue">Continue reading</a>
-                </div>
+                <?php for($i = 0; $i < 3; $i++): ?>
+                    <?php include 'components/news_block.php' ?>
+                <?php endfor; ?>
 
             </div>
         </div>
